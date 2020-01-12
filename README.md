@@ -2,6 +2,8 @@
 BoSql is an sql language developed by me in c.
 Has a lot of bugs,but hey this is the first version BoSql version 1.0.0
 
+<b>NOTE<b> all the commands end with (;) check the demo file
+
 what I have ?
 
 
@@ -21,3 +23,12 @@ SHOW <table_name> - is showing all <table_name> including header column and all 
 COLUMN <table_name> - is showing the header column 
 
 INSERT <table_name> (<here_put_content_with_,_between_words>) - is inserting data into the database
+
+
+In this way you can create a table
+CREATE <table_name>
+
+CONTENT <table_name> (<HEADER_ROW>)
+
+THIS 2 COMMANDS GO HAND IN HAND
+
