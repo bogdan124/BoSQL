@@ -1,0 +1,11 @@
+
+
+
+SELECT (24,25) test_table ;
+
+SELECT (1,2) test_table ;
+
+SELECT (1,0) test_table ;
+
+
+
