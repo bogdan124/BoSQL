@@ -11,6 +11,7 @@ void insert_function(char * b,int i,char *a){
 	char * command;		
 	char * midd_command1;
 	
+	int error_code;
 	
 	getnumber1=allocChar(300);
 	midd_command1=allocChar(300);
@@ -31,9 +32,11 @@ if(strcmp(b,"INSERT")==0){
 				printf("\nERROR 3: missing ) : %s",command);
 			}
 			
-			//look in file to be present rows
-			appendToBinaryFile(name,command);
-			
+			//look in file to be present rowss
+			error_code=primary_key(name,command);
+			if(error_code==0){
+				appendToBinaryFile(name,command);
+			}
 			end_file=getTheCommand(a,i+3);
 			
 			if(strcmp(end_file,";")!=0){

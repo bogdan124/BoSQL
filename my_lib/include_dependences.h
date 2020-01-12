@@ -1,5 +1,6 @@
 #include "operator_functions/get_parameters_func.h" 
 
+#include "database_filters/include_all.h"
 
 #include "operator_functions/like_function.h"
 

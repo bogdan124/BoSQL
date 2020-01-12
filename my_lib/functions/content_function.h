@@ -18,6 +18,9 @@ void content_function(char * b,int i,char *a){
 	name=allocChar(300);
 	end_file=allocChar(300);
 
+
+//add primary key NOTE
+//create a generate function that is generating data GENERATE <table_name> 1000 ; //se uita la structura bazei si genereaza
 if(strcmp(b,"CONTENT")==0){
 		name=getTheCommand(a,i+1);
 		

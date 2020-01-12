@@ -1,0 +1,9 @@
+
+select is working but without * 
+like is working but with (12,2) at the select 
+
+
+
+
+
+

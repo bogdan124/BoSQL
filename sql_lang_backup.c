@@ -59,7 +59,8 @@ void show_start(int i){
 	if(i==0){
 		printf("\n>");
 	}else{
-		printf("\tWELCOME TO BOGDAN'S SQL!");
+		printf("\tWELCOME TO BoSQL!\n");
+		printf("Give your file to run , file has to end in <filename>.bog.");
 		printf("\n>");
 	}
 }
@@ -69,16 +70,23 @@ int getTheLineNumbers(char * filename){
 	int number_lines=0;
 	char gh;
 	FILE * f;
-	f=fopen(filename,"rt");		
+	f=fopen(filename,"rt");	
+	
+	if(f==NULL){
+		printf("Give a proper filename!!\n");
+		//exit(1);
+	} else {
+
+			
+		while(!feof(f)){
+			gh=fgetc(f);
+			if(gh=='\n'){
+				number_lines++;
+			}
 		
-	while(!feof(f)){
-		gh=fgetc(f);
-		if(gh=='\n'){
-			number_lines++;
 		}
-	
-	}
-	
+	}	
+	fclose(f);
 	return number_lines;
 }
 
