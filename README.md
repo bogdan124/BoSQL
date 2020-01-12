@@ -13,6 +13,6 @@ SELECT (123,0) <table_name> - is selecting from 123 until the end
 
 SELECT (0,0) <table_name> - is selecting all rows
 
-SELECT * <table_name> LIKE(<something>,2) - is selecting all rows with column 2 equel with <something>
+SELECT * <table_name> LIKE(<some_thing>,2) - is selecting all rows with column 2 equel with <some_thing>
 
 
