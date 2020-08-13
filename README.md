@@ -34,9 +34,10 @@ In this way you can create a table
 THIS 2 COMMANDS GO HAND IN HAND
 
 
-In the future after version 1.0.1 I will add a python library that will let you to acces the database faster
+<h1>Version 1.0.1</h1>
 
-
+I changed the syntax and now my Database is column oriented,in this way i can fetch data a lot easy using data compression( basically you don't look what you don't want). The data for each column is stored in separated files and I use mmap to select the number of bytes that i want to read from data.
+In the past version I was looking on 100 milions rows(to do a simple search took me 10 seconds(a lot!!!)) now i can select just a column and do a search in less than one second.(In the next version I will try to add paralelism to look over multiple columns in the same time )
 
 
 
