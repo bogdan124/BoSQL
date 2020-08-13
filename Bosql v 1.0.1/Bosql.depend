@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1597087093 source:/home/bogdan/Desktop/testCodeblock/Bosql/commands.c
+	<string.h>
+	"commands.h"
+
+1597083377 /home/bogdan/Desktop/testCodeblock/Bosql/commands.h
+	"externvar.h"
+	"data.h"
+	"useless.h"
+	"database.h"
+	"table.h"
+	"commandExecute.h"
+
+1596837082 /home/bogdan/Desktop/testCodeblock/Bosql/externvar.h
+
+1596922443 /home/bogdan/Desktop/testCodeblock/Bosql/data.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	<unistd.h>
+	<dirent.h>
+	<errno.h>
+	<time.h>
+	<sys/mman.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1597046168 /home/bogdan/Desktop/testCodeblock/Bosql/useless.h
+	"externvar.h"
+	"data.h"
+
+1596877831 /home/bogdan/Desktop/testCodeblock/Bosql/database.h
+	"externvar.h"
+	"data.h"
+	"useless.h"
+
+1596896272 /home/bogdan/Desktop/testCodeblock/Bosql/table.h
+	"externvar.h"
+	"data.h"
+	"useless.h"
+	"database.h"
+
+1597010936 source:/home/bogdan/Desktop/testCodeblock/Bosql/database.c
+	"database.h"
+
+1597138445 source:/home/bogdan/Desktop/testCodeblock/Bosql/main.c
+	"data.h"
+	"externvar.h"
+	"useless.h"
+	"commandExecute.h"
+	"commands.h"
+	"database.h"
+	"table.h"
+	"storeDef.h"
+
+1597009369 source:/home/bogdan/Desktop/testCodeblock/Bosql/table.c
+	"table.h"
+
+1597046140 source:/home/bogdan/Desktop/testCodeblock/Bosql/useless.c
+	"useless.h"
+
+1597158533 source:/home/bogdan/Desktop/testCodeblock/Bosql/commandExecute.c
+	"commandExecute.h"
+
+1597086982 /home/bogdan/Desktop/testCodeblock/Bosql/commandExecute.h
+	"externvar.h"
+	"data.h"
+	"useless.h"
+	"database.h"
+	"table.h"
+
+1597158367 source:/home/bogdan/Desktop/testCodeblock/Bosql/mappingFile.c
+	"mappingFile.h"
+
+1597158379 /home/bogdan/Desktop/testCodeblock/Bosql/mappingFile.h
+	"externvar.h"
+	"data.h"
+	"useless.h"
+	"database.h"
+	"table.h"
+
+1597044324 source:/home/bogdan/Desktop/testCodeblock/Bosql/server.c
+
+1597136416 /home/bogdan/Desktop/testCodeblock/Bosql/storeDef.h
+	"externvar.h"
+	"data.h"
+	"useless.h"
+	"database.h"
+	"table.h"
+	"commandExecute.h"
+
+1597137701 source:/home/bogdan/Desktop/testCodeblock/Bosql/storeDef.c
+	"storeDef.h"
+
